@@ -13,8 +13,8 @@ async function bootstrap() {
   app.enableCors();
 
   const options = new DocumentBuilder()
-    .setTitle('Vending Machine API')
-    .setDescription('API for a vending machine')
+    .setTitle('Automate Machine API')
+    .setDescription('API for a automate machine')
     .setVersion('1.0')
     .addBearerAuth()
     .build();
